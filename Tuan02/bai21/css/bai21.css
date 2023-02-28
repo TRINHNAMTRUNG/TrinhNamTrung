@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif
+}
+
+.taskbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.logo, .logo img{
+    width: 45px;
+    height: 39px;
+    margin-right: 20px;
+}
+.leftbar, .rightbar{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.leftbar{
+    column-gap: normal;
+}
+.baritem{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 5px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+.optionitem:nth-child(1){
+    background-color: #282a35;
+    opacity: 0.85;
+    color: white;
+}
+.optionitem:nth-child(2){
+    background-color: #f4a0aa;
+    opacity: 0.80;
+}
+.optionitem:nth-child(3){
+    background-color: #f5e24f;
+    opacity: 0.80;
+}
+.optionitem:nth-child(4){
+    background-color: #059862;
+    opacity: 0.85;
+    color: white;
+}
+.optionitem{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 43px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.optionitem:hover{
+    opacity: 1;
+}
+.baritem:hover{
+    background-color: #08b475;
+}
+
+.searchinfor{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 37px;
+    background-color: #282a35;
+}
+
+.texttitle{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.content, .question{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f4a0aa;
+}
+.question{
+    color: white;
+    cursor: pointer;
+}
+.boxsearch{
+    display: flex;
+    justify-content: center;
+}
+.boxsearch button{
+    height: 44px;
+    width: 100px;
+    outline: none;
+    border-radius: 0%;
+    border: none;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: #08b475;
+    cursor: pointer;
+}
+.boxsearch button i{
+    font-size: 20px;
+}
+.boxsearch #search{
+    width: 398px;
+    height: 44px;
+    outline: none;
+    border-radius: 0%;
+    border: none;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    padding: 0px 20px;
+}
+.boxsearch #search::placeholder{
+    font-weight: 600;
+    font-size: 15px;
+    color: gray;
+}
+.question:hover{
+    color: #059862;
+}
+.boxsearch button{
+    background-color: #059862;
+}
