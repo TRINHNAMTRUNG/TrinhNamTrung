@@ -135,3 +135,104 @@
 .boxsearch button{
     background-color: #059862;
 }
+
+.introduce{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9EEE1;
+}
+.building{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+.language{
+    font-size: 90px;
+    margin-bottom: 16px;
+}
+.optionbuild{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: white;
+    font-size: 17px;
+}
+.itemoption{
+    width: 200px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.itemoption:nth-child(1){
+    background-color: #08b475db;
+}
+.itemoption:nth-child(2){
+    background-color: #282a35ca;
+}
+.itemoption:nth-child(3){
+    background-color: #f4a0aacb;
+}
+.itemoption:nth-child(1):hover{
+    background-color: #089b65;
+}
+.itemoption:nth-child(2):hover{
+    background-color: #292b35;
+}
+.itemoption:nth-child(3):hover{
+    background-color: #f1a1aa;
+}
+
+.tabletest{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 19px;
+}
+.tabletest .title{
+    font-size: 30px;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E9EB;
+    padding: 30px 20px 23px 20px;
+    box-shadow: 10px 5px 50px 9px rgba(0, 0, 0, 0.468);
+    border-radius: 10px;
+}
+.source{
+    border-left: 4px solid #059862;
+    margin: 25px 0px 15px 0px;
+}
+.source, .source img{
+    width: 420px;
+    height: 240px;
+}
+.try{
+    background-color: #0ac17e;
+    color: white;
+    width: 200px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.try:hover{
+    background-color: #059862;
+}
