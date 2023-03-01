@@ -108,11 +108,15 @@
     border: none;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
-    background-color: #08b475;
+    background-color: #059862;
     cursor: pointer;
 }
 .boxsearch button i{
     font-size: 20px;
+    color: white;
+}
+.boxsearch button:hover{
+    background-color: #056f48;
 }
 .boxsearch #search{
     width: 398px;
@@ -219,8 +223,8 @@
     margin: 25px 0px 15px 0px;
 }
 .source, .source img{
-    width: 420px;
-    height: 240px;
+    width: 490px;
+    height: 230px;
 }
 .try{
     background-color: #0ac17e;
@@ -235,4 +239,16 @@
 }
 .try:hover{
     background-color: #059862;
+}
+.introduce:nth-child(2){
+    background-color: #FFF4A3;
+}
+.introduce:nth-child(3){
+    background-color: #379fdb;
+}
+.introduce:nth-child(4){
+    background-color: #F3ECEA;
+}
+.introduce:nth-child(5){
+    background-color: #96D4D4;
 }
