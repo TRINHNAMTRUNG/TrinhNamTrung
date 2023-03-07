@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 400px ;
+    width: 500px;
+    margin: 100px;
+    border: 1px solid black;
+}
+div p{
+    margin: 10px 0px;
+}
+.text1{
+    text-indent: 1cm;
+}
+.text2{
+    text-align: right;
+}
+.text3{
+    text-align: center;
+}
+.text4{
+    text-align: left;
+}
+.text5{
+    text-decoration: underline;
+}
+.text6{
+    text-decoration: line-through;
+}
+.text7{
+    text-decoration: overline;
+}
+.text8{
+    text-decoration: blink; text-shadow: 4px 4px 8px blue;
+}
