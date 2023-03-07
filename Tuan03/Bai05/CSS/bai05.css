@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://znews-photo.zingcdn.me/w660/Uploaded/mdf_eioxrd/2021_07_06/2.jpg"), url("https://thuthuatphanmem.vn/uploads/2018/09/11/hinh-anh-dep-36_044131055.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px 200px, 300px 200px ;
+    background-position: bottom right, left top;
+}
