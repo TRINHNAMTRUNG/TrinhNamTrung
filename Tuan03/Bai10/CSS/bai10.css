@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+.container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 29px;
+    row-gap: 29px;
+    margin-left: 40%;
+    margin-top: 20%;
+    box-shadow: 10px 10px 50px black;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    animation-name: circle-change-color;
+    animation-duration: 10s;
+    background-color: red;
+    transition: all 10s;
+}
+@keyframes circle-change-color{
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: aqua;}
+    60% {background-color: bisque;}
+    80% {background-color: aquamarine;}
+    100% {background-color: palevioletred;}
+}
+.circle:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
