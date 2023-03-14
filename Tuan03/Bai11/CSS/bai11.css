@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    font-size: 19px;
+}
+.sticky{
+    background-color: #3097f1;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
