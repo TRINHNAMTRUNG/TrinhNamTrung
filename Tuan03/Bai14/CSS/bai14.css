@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 30%;
+    box-shadow: 10px 10px 50px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 300px;
+    height: 100px;
+}
+.boxtext{
+    background-color: aquamarine;
+    border: 3px dashed;
+    padding: 10px;
+    transition-duration: 5s;
+}
+.boxtext:hover{
+    cursor: pointer;
+    transform: scale(1.5) rotate(360deg);
+    background-color: #36ad86;
+}
