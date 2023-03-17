@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inder', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.navbar{
+    width: 4%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-right: 2px solid #c0b9b96d;
+}
+.top-nav,.bottom-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.logo,.icon,.user,.setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 30px;
+}
+.icon,.user{
+    width: 100%;
+    height: 30px;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.icon:nth-child(5){
+    transform: scale(1.7);
+}
+.icon:nth-child(5) img{
+    border-radius: 5px;
+}
+.setting img,.user img{
+    width: 30px;
+    height: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.bodymeeting{
+    width: 75%;
+    padding-left: 6%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+.right-meeting{
+    width: 35%;
+    background-color: blanchedalmond;
+    border-left: 2px solid #c0b9b96d;
+}
+
+.infor-meeting{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.meeting-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.meeting-title .time-meeting{
+    border: 1.3px solid #ff0051;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px 15px;
+}
+.dot-start-time{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ff0051;
+    margin-right: 10px;
+}
+.more-infor-meeting{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.more-infor-meeting .ouner{
+    font-size: 12px;
+    color: white;
+    background-color: #ff0051;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-infor-meeting .ouner img{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.day-time, .time-in-day{
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.day-time span{
+    margin: 0px 10px;
+}
+.day-time{
+    border-right: 1.5px solid gray;
+}
+.banner{
+    width: 100%;
+    height: 313px;
+    display: flex;
+    justify-content: center;
+}
+.banner .window-ouner{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: #efe9e9c3;
+}
+.window-ouner img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.status-ouner{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 0px 20px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-user-meetting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    width: 170px;
+    padding: 10px 7px;
+    background-color: #454545af;
+    border-radius: 5px;
+}
+.dot{
+    background-color: #0cbe51;
+}
+.status-mic-of-user{
+    width: 32px;
+    height: 32px;
+}
+.status-mic-of-user img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.list-members{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.window-members{
+    width: 220px;
+    height: 130px;
+    position: relative;
+}
+.window-members img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.status-member{
+    position: absolute;
+    padding: 0px 8px;
+    top: 5px;
+    left: 2px;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-members-meetting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-size: 9px;
+    padding: 5px 5px;
+    background-color: #454545af;
+    border-radius: 5px;
+}
+.name-members-meetting span,.name-user-meetting span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.status-mic-of-members{
+    width: 25px;
+    height: 100%;
+}
+.status-mic-of-members img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.task-tool {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.task-tool .item-tool{
+    width: 30px;
+    height: 30px;
+}
+.task-tool .button-end{
+    width: 120px;
+    background-color: #ff0051;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+.item-tool img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.right-meeting .top-mess{
+    width: 100%;
+    height: 40%;
+    padding: 25px;
+    border-bottom: 2px solid #c0b9b96d;
+}
+.top-mess .taskbar-mess{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.taskbar-mess .participants{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.taskbar-mess .number-member{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: #ff0051;
+    background-color: #f39bb7a0;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taskbar-mess .tool-add{
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #ff0051;
+    color: #ff0051;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-mess-member{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+.list-mess-member .mess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+}
+.mess-avatar{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.mess-avatar img{
+    width: 30px;
+    height: 100%;
+    margin-right: 7px;
+}
+.tool-mess{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    column-gap: 7px;
+}
+.tool-mess img{
+    width: 16px;
+    height: 16px;
+}
+.tool-mess .three-dot{
+    display: flex;
+    column-gap: 2px;
+}
+.tool-mess .three-dot div{
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
