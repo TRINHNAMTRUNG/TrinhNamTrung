@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inder', sans-serif;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100vh;
     display: flex;
 }
-.navbar{
+
+.navbar {
     width: 4%;
     height: 100%;
     position: fixed;
@@ -19,7 +21,9 @@
     padding: 20px 10px;
     border-right: 2px solid #c0b9b96d;
 }
-.top-nav,.bottom-nav{
+
+.top-nav,
+.bottom-nav {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -27,57 +31,74 @@
     align-items: center;
     row-gap: 20px;
 }
-.logo,.icon,.user,.setting{
+
+.logo,
+.icon,
+.user,
+.setting {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 100%;
     height: 30px;
 }
-.icon,.user{
+
+.icon,
+.user {
     width: 100%;
     height: 30px;
 }
-.icon img{
+
+.icon img {
     width: 20px;
     height: 20px;
 }
-.icon:nth-child(5){
+
+.icon:nth-child(5) {
     transform: scale(1.7);
 }
-.icon:nth-child(5) img{
+
+.icon:nth-child(5) img {
     border-radius: 5px;
 }
-.setting img,.user img{
+
+.setting img,
+.user img {
     width: 30px;
     height: 30px;
 }
-.logo img{
+
+.logo img {
     width: 100%;
     height: 100%;
 }
-.bodymeeting{
+
+.bodymeeting {
     width: 75%;
     padding-left: 6%;
     padding-right: 3%;
     padding-top: 1.5%;
     padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
 }
-.right-meeting{
+
+.right-meeting {
     width: 35%;
-    background-color: blanchedalmond;
     border-left: 2px solid #c0b9b96d;
 }
 
-.infor-meeting{
+.infor-meeting {
     width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-.meeting-title{
+
+.meeting-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,8 +106,10 @@
     font-size: 20px;
     font-weight: 600;
 }
-.meeting-title .time-meeting{
+
+.meeting-title .time-meeting {
     border: 1.3px solid #ff0051;
+    color: #ff0051;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -95,21 +118,24 @@
     font-weight: lighter;
     padding: 5px 15px;
 }
-.dot-start-time{
+
+.dot-start-time {
     width: 8px;
     height: 8px;
     border-radius: 100%;
     background-color: #ff0051;
     margin-right: 10px;
 }
-.more-infor-meeting{
+
+.more-infor-meeting {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.more-infor-meeting .ouner{
+
+.more-infor-meeting .ouner {
     font-size: 12px;
     color: white;
     background-color: #ff0051;
@@ -119,12 +145,15 @@
     justify-content: center;
     align-items: center;
 }
-.more-infor-meeting .ouner img{
+
+.more-infor-meeting .ouner img {
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
-.day-time, .time-in-day{
+
+.day-time,
+.time-in-day {
     font-size: 12px;
     font-weight: lighter;
     color: white;
@@ -133,33 +162,39 @@
     align-items: center;
     color: gray;
 }
-.day-time span{
+
+.day-time span {
     margin: 0px 10px;
 }
-.day-time{
+
+.day-time {
     border-right: 1.5px solid gray;
 }
-.banner{
+
+.banner {
     width: 100%;
-    height: 313px;
+    height: 413px;
     display: flex;
     justify-content: center;
 }
-.banner .window-ouner{
+
+.banner .window-ouner {
     position: relative;
-    width: 70%;
+    width: 78%;
     height: 100%;
     border-radius: 10px;
     padding-top: 10px;
     background-color: #efe9e9c3;
 }
-.window-ouner img{
+
+.window-ouner img {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100%;
     height: 100%;
 }
-.status-ouner{
+
+.status-ouner {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -169,7 +204,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.name-user-meetting{
+
+.name-user-meetting {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,19 +216,23 @@
     background-color: #454545af;
     border-radius: 5px;
 }
-.dot{
+
+.dot {
     background-color: #0cbe51;
 }
-.status-mic-of-user{
+
+.status-mic-of-user {
     width: 32px;
     height: 32px;
 }
-.status-mic-of-user img{
+
+.status-mic-of-user img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
-.list-members{
+
+.list-members {
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -200,17 +240,20 @@
     justify-content: space-around;
     margin-bottom: 20px;
 }
-.window-members{
-    width: 220px;
-    height: 130px;
+
+.window-members {
+    width: 240px;
+    height: 140px;
     position: relative;
 }
-.window-members img{
+
+.window-members img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
-.status-member{
+
+.status-member {
     position: absolute;
     padding: 0px 8px;
     top: 5px;
@@ -221,7 +264,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.name-members-meetting{
+
+.name-members-meetting {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,20 +277,25 @@
     background-color: #454545af;
     border-radius: 5px;
 }
-.name-members-meetting span,.name-user-meetting span{
+
+.name-members-meetting span,
+.name-user-meetting span {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.status-mic-of-members{
+
+.status-mic-of-members {
     width: 25px;
     height: 100%;
 }
-.status-mic-of-members img{
+
+.status-mic-of-members img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
+
 .task-tool {
     width: 100%;
     height: 40px;
@@ -255,11 +304,13 @@
     align-items: center;
     column-gap: 15px;
 }
-.task-tool .item-tool{
+
+.task-tool .item-tool {
     width: 30px;
     height: 30px;
 }
-.task-tool .button-end{
+
+.task-tool .button-end {
     width: 120px;
     background-color: #ff0051;
     color: white;
@@ -269,33 +320,47 @@
     padding: 7px 7px;
     border-radius: 5px;
 }
-.item-tool img{
+
+.item-tool img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
-.right-meeting .top-mess{
+
+.right-meeting .top-mess {
     width: 100%;
     height: 40%;
     padding: 25px;
     border-bottom: 2px solid #c0b9b96d;
 }
-.top-mess .taskbar-mess{
+
+.right-meeting .bottom-mess {
+    width: 100%;
+    height: 60%;
+    padding: 25px;
+}
+
+.top-mess .taskbar-mess,
+.bottom-mess .taskbar-mess {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.taskbar-mess .participants{
+
+.taskbar-mess .participants,
+.taskbar-mess .chat {
     font-weight: 600;
     font-size: 18px;
     margin-right: 5px;
 }
-.title{
+
+.title {
     display: flex;
     align-items: center;
 }
-.taskbar-mess .number-member{
+
+.taskbar-mess .number-member {
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -307,7 +372,8 @@
     align-items: center;
     justify-content: center;
 }
-.taskbar-mess .tool-add{
+
+.taskbar-mess .tool-add {
     width: 60px;
     height: 30px;
     border-radius: 7px;
@@ -317,7 +383,8 @@
     align-items: center;
     justify-content: center;
 }
-.list-mess-member{
+
+.list-mess-member {
     width: 100%;
     height: 100%;
     display: flex;
@@ -325,42 +392,132 @@
     row-gap: 15px;
     margin-top: 20px;
 }
-.list-mess-member .mess{
+
+.list-mess-member .mess {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 30px;
     width: 100%;
 }
-.mess-avatar{
+
+.mess-avatar {
     display: flex;
     align-items: center;
     font-size: 12px;
     font-weight: 500;
 }
-.mess-avatar img{
+
+.mess-avatar img {
     width: 30px;
     height: 100%;
     margin-right: 7px;
 }
-.tool-mess{
+
+.tool-mess {
     display: flex;
     align-items: center;
     font-weight: 600;
     column-gap: 7px;
 }
-.tool-mess img{
+
+.tool-mess img {
     width: 16px;
     height: 16px;
 }
-.tool-mess .three-dot{
+
+.tool-mess .three-dot {
     display: flex;
     column-gap: 2px;
 }
-.tool-mess .three-dot div{
+
+.tool-mess .three-dot div {
     width: 3px;
     height: 3px;
     border-radius: 100%;
     background-color: grey;
 }
 
+.bottom-mess .box-chat {
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.box-chat .wrap-box-chat {
+    display: flex;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow-y: auto;
+}
+
+.box-chat .content {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 1fr;
+    column-gap: 10px;
+}
+
+.content .name-and-active {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .active-time{
+    margin: 10px;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #827e7ebf;
+}
+
+.content .text-chat {
+    font-size: 14px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px 5px;
+    background-color: #c0b9b96d;
+    border-radius: 7px;
+}
+
+.box-input-chat {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+}
+
+.box-input-chat .input {
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+
+.box-input-chat #box-chat {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c0b9b96d;
+    outline: none;
+    border-radius: 7px;
+    padding: 0px 24px;
+}
+
+.box-input-chat .icon-send-mess img {
+    height: 40px;
+}
+
+.box-input-chat .shop-icon span{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
