@@ -54,4 +54,53 @@
     height: 100%;
     border-radius: 5px;
 }
+.container .box_add{
+    width: 1000px;
+    margin-top: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 232);
+    border-radius: 10px;
+}
+.box_add .wrap_infor, form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-top: 15px;
+}
+.box_add .title_box_add{
+    text-align: center;
+}
+form input{
+    width: 70%;
+    height: 50px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form .btn_add{
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    background-color: black;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+form .vm:hover{
+    background-color: rgba(0, 0, 0, 0.806);
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
 
